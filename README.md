@@ -1,6 +1,7 @@
 # Online Examination System
 
-Ebenezer Idenyi · Student ID 301907462
+Student Name: Ebenezer Idenyi <br>
+Student ID: 301907462
 
 The portfolio uses fictional records for Online Examination System.
 
