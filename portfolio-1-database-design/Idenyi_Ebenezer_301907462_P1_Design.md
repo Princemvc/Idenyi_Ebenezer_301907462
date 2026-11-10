@@ -1,8 +1,8 @@
-# Online Examination System — database design
+# Online Examination System — Database Design
 
-My case study records candidate, exam, attempt, question, answer.
+My case study will records candidate, exam, attempt, question, answer.
 
-## Users
+## The Users
 
 - Candidates taking scheduled exams
 - Exam staff creating exams and reviewing results
