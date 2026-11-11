@@ -1,6 +1,6 @@
-# Online Examination System — SQL queries
+# The Online Examination System — SQL queries
 
-## 1. Show related attempt, candidate, exam records (up to 20).
+## 1. This show related attempt, candidate, exam records (up to 20).
 
 ```sql
 SELECT t0."attempt_id" AS "attempt_attempt_id",
