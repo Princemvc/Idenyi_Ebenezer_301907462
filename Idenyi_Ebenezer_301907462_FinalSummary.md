@@ -1,10 +1,10 @@
 # MIT 8103 Advanced Database Systems
 
-**Online Examination System** · Ebenezer Idenyi · Student ID 301907462
+**Online Examination System** ·<br> Student Name: Ebenezer Idenyi ·<br> Student ID:301907462
 
 ## Case study
 
-My case study is Online Examination System. I designed the database for candidates taking scheduled exams and exam staff creating exams and reviewing results, with separate tables named candidate, exam, attempt, question and answer. It supports these operations: create an exam and its questions; start and submit a candidate exam attempt; review submitted attempts and aggregate scores.
+My case study is an Online Examination System. I designed the database for candidates taking scheduled exams and exam staff creating exams and reviewing results, with separate tables named candidate, exam, attempt, question and answer. It supports these operations: create an exam and its questions; start and submit a candidate exam attempt; review submitted attempts and aggregate scores.
 
 ## Portfolio 1: Database Design and Modelling
 
