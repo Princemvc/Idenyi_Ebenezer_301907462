@@ -12,7 +12,7 @@ I used a temporary counter (p3_processed_count) on attempt, record {"attempt_id"
 | After COMMIT | 1 |
 | After ROLLBACK | 1 |
 
-The CHECK error (23514) aborted the second transaction. ROLLBACK restored the earlier committed value. READ COMMITTED kept the uncommitted change hidden from the other session.
+You will see that the CHECK error (23514) aborted the second transaction. ROLLBACK restored the earlier committed value. READ COMMITTED kept the uncommitted change hidden from the other session.
 
 ## Two-session comparison
 
@@ -25,7 +25,7 @@ Both sessions first read 1. Without locking, both wrote 2 and one increment was 
 
 ## Files and order
 
-Run the Portfolio 1 schema and sample data in a fresh database, then Idenyi_Ebenezer_301907462_P3_Transactions.sql. Open two psql terminals connected to that same database. Follow steps 1–9 across SessionA.sql and SessionB.sql; run step 5 in Session A outside a transaction.
+We shall run the Portfolio 1 schema and sample data in a fresh database, then Idenyi_Ebenezer_301907462_P3_Transactions.sql. Open two psql terminals connected to that same database. Follow steps 1–9 across SessionA.sql and SessionB.sql; run step 5 in Session A outside a transaction.
 
 - [Transactions](Idenyi_Ebenezer_301907462_P3_Transactions.sql)
 - [Session A](Idenyi_Ebenezer_301907462_P3_SessionA.sql)
